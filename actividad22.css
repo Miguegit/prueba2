@@ -1,0 +1,50 @@
+a:link{
+	background-color: yellow;
+	color:black;
+	border: 2px solid green;
+	widt:300px;
+	text-align:center;
+	text-decoration:none;
+}
+
+a:visited{
+	background-color: lightblue;
+	padding:30px 10px;
+	width:300px;
+	text-align:center;
+	text-decoration:none;
+}
+
+a:hover{
+	background-color: green;
+	color:white;
+	width:260px;
+}
+
+a:active{
+	background-color: purple;
+	color:white;
+	width:330px;
+}
+
+li{
+	list-style-type:upper-roman;
+	list-style-position:outside;
+	background-color:lightblue;
+	font-style:italic;
+}
+ol{
+	padding:15px;
+	background:#fff486;
+	border-left: solid 5px blue;
+	
+}
+ul{
+	list-style-type:none;
+	list-style-position:outside;
+	list-style-image:"papel.jpg";
+	border-left: solid 5px blue;
+	border-right: solid 5px red;
+	background:lightgreen;
+	
+}
